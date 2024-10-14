@@ -31,13 +31,13 @@ eval new_field = field1 + field2
 ```
 
 
-### Show webserver errors
+### Show webserver errors  
 
-### 
+#### Output by table arranged by time 
 
 ```spl
 index=weblogs sourcetype=access_combined 
-status>=400 | table
+status>=400 | table _time, method, uri, status
 ```
 
 
