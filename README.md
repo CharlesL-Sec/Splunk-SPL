@@ -55,7 +55,7 @@ index="prod_paloalto"
 
 ### Splunk indexes list
 
-### Splunk Log Index Name
+#### Splunk Log Index Name
 1. prod_windows
 1. prod_aws
 1. prod_paloalto
